@@ -1,12 +1,17 @@
 .feedback-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   max-width: 480px;
   padding: 12px;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: thistle;
+  border: 3px solid rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  border-color: aquamarine;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
 
 .feedback-form label {
   display: flex;
